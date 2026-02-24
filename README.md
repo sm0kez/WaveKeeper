@@ -68,6 +68,71 @@ WaveKeeper sends echo messages (only visible to you) when it:
 - Detects an incoming emote and queues a reply
 - Sends a reply
 
+🗺️ Roadmap & Future Ideas
+✅ Confirmed for v1.1
+
+    Default State: Disabled on first run
+    New Defaults: (Emote: /dote, Scan: 8s, Range: 5y, Friends Only: True, Reply: /pet disabled)
+    AFK Filter: Pause greets when player is AFK
+    AFK Filter: Pause auto-reply when player is AFK
+    AFK Filter: Ignore players who are currently AFK
+
+🎭 Emote & Behavior
+
+    Cooldown per player: Don't re-greet someone for X minutes if they leave/return
+    Emote randomizer: Pick from a custom list of emotes randomly
+    Reply mirror mode: Automatically reply with the exact same emote used on you
+    Returning greet: Different emote for first encounter of the day vs. returning later
+    Emote chain: Execute multiple emotes in sequence with custom delays
+    Emote queue system: Stagger greetings when multiple friends arrive simultaneously
+    Goodbye emote: Send a farewell emote when a friend leaves range
+
+🛡️ Filters & Smart Behavior
+
+    In-combat filter: Automatically pause greetings while in combat
+    Cutscene/loading filter: Pause during cutscenes and loading screens
+    Mounted filter: Skip greeting while mounted
+    Crafting/gathering filter: Don't interrupt active crafting or gathering
+    Duty/instance filter: Automatically disable in duties and PvP
+    Zone Blacklist: Disable functionality in specific user-defined zones
+    Zone Whitelist: Only active functionality in specific zones
+    Level range filter: Only greet players within a specific level range
+    Warmup delay: Delay greetings for X seconds after loading into a new zone
+
+📊 Tracking & Stats
+
+    Daily greet counter: Track how many players were greeted today
+    Most greeted friend: Track the player you encounter most often
+    Session stats: View greets, replies, and ignored players for current session
+    Greet history window: Scrollable log with timestamps of all interactions
+    Export stats: Save history data to text or CSV files
+
+🎨 UI & Quality of Life
+
+    Compact mode: Small floating overlay showing status and greeting counts
+    Profiles/presets: Save and switch between different settings profiles
+    Quick toggle (DTR bar): Clickable icon on the server info/DTR bar
+    Custom chat prefix: Change [WaveKeeper] to a custom string
+    Chat color options: Select custom colors for echo messages
+    Chat notification toggle: Option to completely hide [WaveKeeper] messages
+
+🤝 Social & Group
+
+    FC members mode: Specific toggle to greet Free Company members
+    Party member mode: Specific toggle to greet party members
+    Linkshell/CWLS mode: Greet members of your Linkshells
+    Whitelist mode: Only greet a specific list of named players
+    Per-player emote override: Assign specific emotes to specific friends
+    Newcomer greeting: Special emote for players with the "New Adventurer" (Sprout) icon
+    Returner greeting: Special welcome-back emote for players with the "Returner" icon
+    Name color coding: Different colors for Friends, FC, and Party members in logs
+
+⏰ Scheduling
+
+    Time-based activation: Only active during specific hours of the day
+    Auto-disable timer: Turn off functionality after X minutes of activity
+    Sound notification: Play a UI sound when someone emotes at you
+
 ## Credits
 
 **Made by sm0var**
