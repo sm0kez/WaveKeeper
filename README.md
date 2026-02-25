@@ -120,6 +120,135 @@ WaveKeeper adds a clickable entry to the server info bar (DTR):
 
 ---
 
+## ❓ Frequently Asked Questions
+
+---
+
+**Q1: Why doesn't it greet everyone around me, only my friends?**
+> The default mode is **Friends Only**. Open `/wavekeeper` → **General → Who to Greet** and switch the mode to **Everyone**. You can also choose **Whitelist Only** if you want to control exactly who gets greeted.
+
+---
+
+**Q2: How do I spam emotes on someone like Copycat does?**
+> Enable **Reply & Mimic → Mimic Mode**, then set the **Mimic Cooldown to 0 seconds**. Every emote someone directs at you will be mirrored back instantly with no cooldown, just like Copycat.
+
+---
+
+**Q3: Someone waved at me but WaveKeeper didn't reply. Why?**
+> Auto-Reply is **off by default**. Go to **Reply & Mimic → Auto-Reply** and enable it. Also check your greet mode — if you're on **Friends Only**, WaveKeeper will only reply to people on your friends list.
+
+---
+
+**Q4: It greeted someone once but never again even though they're still nearby. Why?**
+> WaveKeeper keeps a greeted list per session and won't greet the same person twice. Click **Clear Greeted** at the top of the settings window to reset it, or simply change zones — the list clears automatically.
+
+---
+
+**Q5: How do I make it wait a few seconds before greeting someone?**
+> Go to **General → Timing → Greet Delay** and set it to however many seconds you want. A value of 3–5 seconds feels natural and avoids greeting someone who's just passing through.
+
+---
+
+**Q6: How do I assign a specific emote to a specific friend?**
+> Go to **Player Lists → Per-Player Emotes**, enter the player's exact name and the emote command (e.g. `/dote`), then click **Add**. That player will always receive that emote instead of your default one.
+
+---
+
+**Q7: How do I stop it from greeting people while I'm crafting, mounted, or in combat?**
+> Go to **Filters** and tick the relevant checkboxes — **Mounted**, **Crafting**, **Gathering**, and **Combat** are all available. WaveKeeper will automatically pause whenever those states are active.
+
+---
+
+**Q8: How do I make it only work in specific zones like my FC house?**
+> Go to **Filters → Zone Whitelist**, enable it, search for your zone by name, and click **+** to add it. WaveKeeper will only greet players while you're inside a whitelisted zone and stay silent everywhere else.
+
+---
+
+**Q9: People keep getting greeted the moment they appear. Can I add a warmup after zoning?**
+> Yes — go to **Filters → Zone Warmup** and set a delay in seconds. WaveKeeper will wait that long after you load into a zone before it starts greeting anyone, avoiding spam on zone-in.
+
+---
+
+**Q10: How do I send a goodbye emote when someone walks away?**
+> Go to **Goodbye**, enable it, and set your emote command. WaveKeeper will automatically send it when a player you've already greeted moves out of your configured range.
+
+---
+
+**Q11: How do I run multiple emotes in a row after greeting someone?**
+> Go to **Emote Chain**, enable it, pick when it fires (**Proactive Only**, **Replies Only**, **All Greets**, or **Goodbye Only**), then add steps with a command, delay, and motion toggle. WaveKeeper fires them in order after the initial emote.
+
+---
+
+**Q12: How do I greet FC members and party members too, not just friends?**
+> In **General → Who to Greet**, set the mode to **Everyone** — or keep **Friends Only** and additionally enable **FC Members** and **Party Members** toggles so those groups are included alongside friends.
+
+---
+
+**Q13: How do I use a special emote only for sprouts or returners?**
+> Go to **Sprout & Returner**, enable **Greet Sprouts** and/or **Greet Returners**, then set the emote you want to use for each. WaveKeeper will automatically use those instead of your default emote when it detects one nearby.
+
+---
+
+**Q14: How do I quickly enable or disable WaveKeeper without opening the settings?**
+> Click the **WK ●** / **WK ○** entry in your server info bar (DTR bar) at the top of the screen. It toggles WaveKeeper on and off instantly. You can also use the **Enable/Disable** button in the Compact overlay (`/wavekeeper compact`).
+
+---
+
+**Q15: How do I make WaveKeeper only run during certain hours, like when I'm usually online?**
+> Go to **Time & Auto-Disable → Time-Based Activation**, enable it, and set your **Start Hour** and **End Hour**. WaveKeeper will enable and disable itself automatically based on your local system clock.
+
+---
+
+**Q16: How do I stop someone from being greeted without fully ignoring them?**
+> Go to **Player Lists → Ignore List** and add their name. They'll be permanently skipped for all greets, replies, mimic, and goodbyes — without affecting anything else.
+
+---
+
+**Q17: How do I see who I've greeted the most and export my history?**
+> Click **Stats** at the top of the settings window or type `/wavekeeper stats`. You'll see session stats, all-time totals, your most greeted players, and a full timestamped history log. Click **Export CSV** to save it to a file.
+
+---
+
+**Q18: I have different playstyles — RP, casual, AFK farming. Can I save separate configs?**
+> Yes — go to **Profiles**, give your current setup a name and click **Save New**. Switch between profiles any time from the **Active** dropdown. Each profile stores all settings independently.
+
+---
+
+**Q19: How do I stop WaveKeeper from printing messages in chat every time it greets someone?**
+> Go to **Chat & Sound → Chat Toggle** and disable chat notifications entirely. Alternatively, customize the **Chat Prefix** or **Chat Color** to make them less intrusive if you still want to see them.
+
+---
+
+**Q20: WaveKeeper greeted someone who just briefly ran past me. How do I avoid that?**
+> Increase the **Greet Delay** under **General → Timing** so WaveKeeper waits before acting. If the player leaves range before the delay expires, the queued greet is automatically cancelled — so a longer delay naturally filters out passersby.
+
+---
+
+**Q21: Why are my emotes queued with a delay when I use Mimic/Copycat mode?**
+> WaveKeeper uses a **Queue Spacing** system to avoid sending emotes too fast and hitting the game's chat rate limit. Go to **General → Timing → Queue Spacing** and lower it closer to **0.5 seconds** for near-instant firing. Setting it too low however may cause emotes to silently fail if the game throttles them.
+
+---
+
+**Q22: Someone spammed emotes at me and now there's a huge backlog of queued emotes firing one by one. How do I stop it?**
+> Click **Clear Greeted** at the top of the settings window — this also flushes the entire emote queue immediately. Alternatively, set a **Mimic Cooldown** (even just 2–3 seconds) to prevent the queue from building up in the first place.
+
+---
+
+**Q23: Can I use WaveKeeper alongside Copycat at the same time?**
+> Technically yes, but it's not recommended. Both plugins hook into emote events and will both try to react to incoming emotes, causing **doubled replies** and queue conflicts. Pick one or the other for mimic/reply behaviour and disable that feature in whichever plugin you're not using for it.
+
+---
+
+**Q24: My emote fires but it targets the wrong person when multiple people are nearby. Why?**
+> WaveKeeper targets the player it's replying to before firing the emote. However if your target changes between the time the emote is queued and when it actually fires (due to queue spacing delay), it may land on whoever you're currently targeting. Enable **Target Before Greeting** in **General** to make WaveKeeper always re-target the correct player right before each emote fires.
+
+---
+
+**Q25: The queue keeps firing even after I disabled WaveKeeper mid-session. Is that normal?**
+> This was a known issue in earlier versions. In the current version, disabling WaveKeeper mid-session will **stop the queue from draining** immediately. Any already-queued emotes are held and won't fire until you re-enable it — or you can flush them instantly with **Clear Greeted**.
+
+---
+
 ## 🙏 Credits
 
 **Made by sm0var**
