@@ -527,7 +527,7 @@ WaveKeeper adds a clickable entry to the server info bar (DTR):
 
 ---
 
-**Q56: Can WaveKeeper send a custom text message (Say/Yell) when someone arrives?**
+**Q56: Can WaveKeeper send a custom text message (Tell/Say/Yell) when someone arrives?**
 > ⏳ **Planned:** A "Custom Greeting Message" feature is in development, allowing you to send a text greeting (like "Welcome to the club!") alongside your emote.
 
 ---
