@@ -252,7 +252,7 @@ WaveKeeper adds a clickable entry to the server info bar (DTR):
 ---
 
 **Q2: How do I spam emotes on someone like Copycat does?**
-> Enable **Reply & Mimic → Mimic Mode**, then set the **Mimic Cooldown to 0 seconds**. Every emote someone directs at you will be mirrored back instantly with no cooldown, just like Copycat.
+> Enable **Reply & Mimic → Mimic Mode**,then set the **Mimic Cooldown to 0 seconds and set the Queue Spacing to 0.**. This removes all delays, allowing you to mirror every incoming emote instantly for a true spam effect.
 
 ---
 
