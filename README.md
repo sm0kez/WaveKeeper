@@ -442,17 +442,4 @@ Thanks to Kingo, Iridescent, Sora, Brit, Willow & Wyno 💜
 
 This project is licensed under the [MIT License](https://github.com/sm0kez/WaveKeeper/blob/main/LICENSE).
 
-
----
-
-## 🙏 Credits
-
-**Made by sm0var**
-
-Thanks to Kingo, Iridescent, Sora, Brit, Willow & Wyno 💜
-
----
-
-## 📜 License
-
 This project is licensed under the [MIT License](https://github.com/sm0kez/WaveKeeper/blob/main/LICENSE).
