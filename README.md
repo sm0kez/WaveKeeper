@@ -2,7 +2,8 @@
 
 A Dalamud plugin for Final Fantasy XIV that automatically greets nearby players with emotes and replies when someone emotes at you.
 
-<img width="391" height="969" alt="preview1" src="https://github.com/user-attachments/assets/0df78c94-6445-48ab-8629-cc510e8a4b52" />
+<img width="360" height="2173" alt="image" src="https://github.com/user-attachments/assets/ae9545dd-96aa-49e6-bc11-e82b0ad18f9f" />
+
 
 
 ## Features
