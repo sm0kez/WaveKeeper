@@ -125,7 +125,7 @@ WaveKeeper adds a clickable entry to the server info bar (DTR):
 ---
 
 **Most asked Question : Even after clearing greets, It doesn't do anything!**
-> If you stand still for too long, the AFK filters kick in. Just move a bit to re-activate the plugin. Ofcourse these AFK filters can be toggled on and off.
+> If you stand still for too long, the AFK filters kick in. Just move a bit to re-activate the plugin. AFK filters can be toggled on and off.
 
 ---
 
